@@ -1,0 +1,28 @@
+$c: center;
+$f: flex;
+$sp: space-around;
+$sv: space-evenly;
+$sb: space-between;
+$cl: column;
+$per: 100%;
+$vh: 100vh;
+$perhelf: 50%;
+$b: bold;
+$n: none;
+$rgb: rgb(0, 0, 0);
+$favColor: #3f3b53;
+$light: rgb(14, 164, 190);
+$BgBody: #22202e;
+$re: relative;
+$ab: absolute;
+$po: "Poppins", sans-serif;
+$ro: "Roboto", sans-serif;
+$p: pointer;
+$tr: transparent;
+$cv: cover;
+$con: contain;
+$h: hidden;
+$padd: 20px 0 20px 0;
+$color: #2ce497;
+
+@import "./Login.module";
