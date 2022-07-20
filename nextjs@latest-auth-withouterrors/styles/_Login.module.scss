@@ -1,0 +1,101 @@
+._login_compo {
+    width: $per;
+    height: $vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.9), $tr),
+      url("/carbg.jpg");
+    background-position: $c;
+    display: $f;
+    justify-content: $c;
+    align-items: $c;
+    flex-direction: $cl;
+    &_display_error {
+      font-family: $ro;
+      color: red;
+      text-align: $c;
+    }
+    &_display_success {
+      font-family: $ro;
+      color: $color;
+      text-align: $c;
+    }
+    img {
+      object-fit: $cv;
+    }
+    ._login {
+      width: $perhelf;
+      border-radius: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.9);
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      height: 80vh;
+      &_form_handler {
+        grid-column: span 2;
+        display: $f;
+        justify-content: $c;
+        align-items: $c;
+        form {
+          display: $f;
+          justify-content: $c;
+          align-items: $c;
+          flex-direction: $cl;
+          h1 {
+            font-weight: $b;
+            font-family: $po;
+            margin: 0;
+            color: #fff;
+          }
+          div {
+            margin-bottom: 20px;
+          }
+          input {
+            width: 300px;
+            padding: 1em;
+            background: $tr;
+            outline: $n;
+            border: $n;
+            border-bottom: 0.4em solid red;
+            color: #fff;
+            font-weight: $b;
+            font-family: $ro;
+          }
+          button {
+            background: #000;
+            color: #fff;
+            font-family: $po;
+            border: 0.2em solid red;
+            width: 150px;
+            padding: 0.5em;
+            border-radius: 20px;
+            cursor: $p;
+          }
+        }
+        &_input_withEye {
+          position: $re;
+          span {
+            position: $ab;
+            bottom: 15%;
+            right: 2%;
+            cursor: $p;
+          }
+          &_FaRegEyeSlash {
+            position: $ab;
+            bottom: 19%;
+            right: 2%;
+            cursor: $p;
+          }
+        }
+      }
+      &_backgroundImage {
+        grid-column: span 2;
+        background-image: url("/car.jpg");
+        background-position: $c;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        border-top-left-radius: 0%;
+        border-bottom-left-radius: 0%;
+      }
+    }
+  }
+  
