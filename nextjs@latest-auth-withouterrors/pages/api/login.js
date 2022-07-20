@@ -27,7 +27,7 @@ export default async function SignIn(req, res) {
           path: "/",
         });
         res.setHeader("Set-Cookie", serialised);
-        return res.json(202).json("user signed in successfully...");
+        return res.status(202).json("user signed in successfully...");
       } catch (error) {}
   }
 }

@@ -25,7 +25,7 @@ function Login() {
       .post("api/login", data)
       .then((response) => {
         setSuccess(response.data);
-        console.log(response.data)
+        console.log(response.data);
       })
       .catch((err) => setError(err.response.data));
   };
